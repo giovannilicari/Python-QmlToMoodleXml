@@ -4,4 +4,4 @@
 ## il file sorgente .qml verrà convertito in .xml per Moodle
 
 Terminale:
-python.exe qml_to_moodle.py esempio.qml esempio.qml.xml
+python.exe qml_to_moodle.py esempio_qml.qml esempio.qml.xml
