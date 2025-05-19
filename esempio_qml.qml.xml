@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>Domanda SC</text>
+    </name>
+    <questiontext format="html">
+      <text>Qual è il colore del cielo in una giornata serena?</text>
+    </questiontext>
+    <answer fraction="100">
+      <text>Blu</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Verde</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>Rosso</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>true</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type="multichoice">
+    <name>
+      <text>Domanda MR</text>
+    </name>
+    <questiontext format="html">
+      <text>Seleziona tutti i numeri pari:</text>
+    </questiontext>
+    <answer fraction="100">
+      <text>2</text>
+      <feedback>
+        <text>Correct</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>3</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <answer fraction="0">
+      <text>4</text>
+      <feedback>
+        <text>Incorrect</text>
+      </feedback>
+    </answer>
+    <shuffleanswers>1</shuffleanswers>
+    <single>false</single>
+    <answernumbering>abc</answernumbering>
+  </question>
+  <question type="truefalse">
+    <name>
+      <text>Domanda TF</text>
+    </name>
+    <questiontext format="html">
+      <text>Il sole sorge ad ovest.</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <answer fraction="0">
+      <text>true</text>
+      <feedback>
+        <text>Falso</text>
+      </feedback>
+    </answer>
+    <answer fraction="100">
+      <text>false</text>
+      <feedback>
+        <text>Vero</text>
+      </feedback>
+    </answer>
+  </question>
+  <question type="shortanswer">
+    <name>
+      <text>Domanda OPEN</text>
+    </name>
+    <questiontext format="html">
+      <text>Qual è il nome del nostro pianeta?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <answer fraction="100">
+      <text>Terra</text>
+      <feedback>
+        <text>Correct answer</text>
+      </feedback>
+    </answer>
+    <usecase>0</usecase>
+  </question>
+  <question type="numerical">
+    <name>
+      <text>Domanda NUM</text>
+    </name>
+    <questiontext format="html">
+      <text>Quanto fa 3 + 4?</text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <answer fraction="100">
+      <text>7</text>
+      <tolerance>0</tolerance>
+      <feedback>
+        <text>Correct answer</text>
+      </feedback>
+    </answer>
+    <units>
+      <unit />
+    </units>
+  </question>
+</quiz>
